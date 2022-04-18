@@ -1,29 +1,30 @@
 // Desafio 1
 function compareTrue(a, b) {
   if (a === true && b === true) {
-    return true
-  } else {
-    return false
+    return true;
+  }
+  // eslint-disable-next-line no-lone-blocks
+  {
+    return false;
   }
 }
 
 // Desafio 2
 function calcArea(base, height) {
-  return (base * height) / 2
+  return (base * height) / 2;
 }
 
 // Desafio 3
 
-function splitSentence(string){
-  let array = string.split(" ");
-  return array;
-}
-
- 
-
+function splitSentence(a) {
+  let b = a.split(' ');
+  return b;
+} /* npm test  */
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(arr) {
+  let ult = arr.length -1;
+  let ultPri = arr[ult]+ ", " + arr[0];
+  return ultPri;
 }
 
 // Desafio 5
