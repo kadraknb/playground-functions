@@ -19,7 +19,8 @@ function calcArea(base, height) {
 function splitSentence(a) {
   let b = a.split(' ');
   return b;
-} /* npm test  */
+}
+/* npm test  */
 // Desafio 4
 function concatName(arr) {
   let ult = arr.length -1;
@@ -28,13 +29,26 @@ function concatName(arr) {
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let pontos = wins * 3 + ties;
+  return pontos;
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(arr) {
+  let seRepete = 0;
+  let maior = -30;
+  for (let i = 0; i < arr.length; i += 1) {
+    if (maior < arr[i]) {
+      maior = arr[i];
+    }
+  }
+  for (let i2 = 0; i2 < arr.length; i2 += 1) {
+    if (maior === arr[i2]) {
+      seRepete += 1;
+    }
+  }
+  return seRepete;
 }
 
 // Desafio 7
