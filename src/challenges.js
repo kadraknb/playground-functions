@@ -20,7 +20,6 @@ function splitSentence(a) {
   let b = a.split(' ');
   return b;
 }
-/* npm test  */
 // Desafio 4
 function concatName(arr) {
   let ult = arr.length - 1;
@@ -76,7 +75,8 @@ function fizzBuzz(nun) {
     } else {
       fizz.push('bug!');
     }
-  } return fizz;
+  }
+  return fizz;
 }
 // Desafio 9
 function encode(aa) {
@@ -107,8 +107,19 @@ function decode(aa) {
 }
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(tech,name) {
+  let res = [];
+  tech.sort();
+  if (tech.length > 0) {
+    for (i of tech) {
+      res.push({
+        'tech': i,
+        'name': name,
+      });
+    }
+  } else {
+    res = 'Vazio!';
+  } return res;
 }
 
 module.exports = {
