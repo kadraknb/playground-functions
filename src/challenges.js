@@ -19,8 +19,8 @@ function splitSentence(a) {
 }
 // Desafio 4
 function concatName(arr) {
-  let ult = arr.length - 1;
-  let ultPri = `${arr[ult]}, ${arr[0]}`;
+  let ult = arr.length -1;
+  let ultPri = arr[ult]+ ", " + arr[0];
   return ultPri;
 }
 // Desafio 5
