@@ -2,16 +2,16 @@
 
 <details>
 
-Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
-Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
-Criar códigos que usam estruturas condicionais, como o if/else ;
-Manipular arrays (listas);
-Utilizar o comando for ;
-Quebrar grandes problemas em pequenos;
-Utilizar a lógica de programação na resolução de problemas;
-Manipular objetos;
-Utilizar o comando for/in ;
-Utilizar funções para organizar e estruturar o seu código;
+Escrever códigos em JavaScript que usam variáveis e tipos primitivos;<br />
+Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;<br />
+Criar códigos que usam estruturas condicionais, como o if/else ;<br />
+Manipular arrays (listas);<br />
+Utilizar o comando for ;<br />
+Quebrar grandes problemas em pequenos;<br />
+Utilizar a lógica de programação na resolução de problemas;<br />
+Manipular objetos;<br />
+Utilizar o comando for/in ;<br />
+Utilizar funções para organizar e estruturar o seu código;<br />
 
 <br />
 </details>
