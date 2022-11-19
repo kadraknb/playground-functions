@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do API de Blogs!
+# Boas-vindas ao repositório do playground functions!
 
 <details>
 
